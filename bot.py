@@ -9,7 +9,7 @@ import numpy as np
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("8198909852:AAEbbVLOBLiHJb8TcjPjJNcCHocUExzn44A")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Basic AI chart analysis function
 def analyze_chart(image_path):
